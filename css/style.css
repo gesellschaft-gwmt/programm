@@ -1,4 +1,8 @@
 
+s {
+    color: red;
+    }
+
 
 table {
          width: 100%;
@@ -19,11 +23,22 @@ table {
     .event {
         width: 80%;
     }
-    a {
+    a:link {
         color: blue; 
         text-decoration: none; 
         font-family: monospace;
     } 
+    a:hover {
+        color: red; 
+        text-decoration: none; 
+        font-family: monospace;
+    } 
+    a:visited {
+        color: purple; 
+        text-decoration: none; 
+        font-family: monospace;
+    } 
+    
 
 h4 {
     color: green;
@@ -38,4 +53,3 @@ p {
     font-family: monospace;
     text-align: justify;
 }
-
