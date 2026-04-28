@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Mittwoch</title>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <button><a href="../index.html">&#8592;</a></button>
+        <button onclick="setLanguage('de')" aria-label="Seite auf Deutsch anzeigen">DE</button>
+        <button onclick="setLanguage('en')" aria-label="Switch to English">EN</button>
+    </nav>
+    <main>
+        <h2 id="headline">Programm - Donnerstag, 10. September 2026</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="time" id="th_time" scope="col">Zeit</th>
+                    <th class="event" id="th_event" scope="col">Veranstaltung</th>
+                    <th class="location" id="th_location" scope="col">Ort</th>
+                    <th class="iCal">&#128197;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time" id="time_sektion1">09:00 - 11:00 Uhr</td>
+                    <td class="event" id="sektion1">
+                        <strong>SEKTION 1</strong><br>
+                        <strong><a href="sektion1/s1.html">Roundtable: Narrating marginalized pasts. Public histories of
+                                science, technology, and medicine</a></strong>
+                        <br>/ Organisation: Sarah Ehlers, München
+                        <br>
+                        <br>/ Manuela Bauche, Berlin
+                        <br>/ Leonie Braam, Berlin
+                        <br>/ Henrik Eßler, Hamburg
+                        <br>/ Sophie Gerber, Wien
+                        <br>/ Monique Ligtenberg, Zürich
+                    </td>
+                    <td class="location"><!--TODO: Ort eintragen-->TBA</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion1.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion2">09:00 - 11:00 Uhr</td>
+                    <td class="event" id="sektion2">
+                        <strong>SEKTION 2</strong><br>
+                        <strong><a href="sektion2/s1.html">Überbrücken, übertragen, unterschlagen: Medizinische
+                                Translationen im Kalten Krieg</a></strong>
+                        <br>/ Organisation: Alexa Geisthövel, Berlin
+                        <br>
+                        <br>Translating Weimar. Arzneimittel, Politik und Ärzteschaft in Deutschland in den 1950er
+                        Jahren
+                        <br>/ Volker Hess, Berlin
+                        <br>
+                        <br>Translation im Kalten Krieg: Wissenschaftliche Reisen zwischen der DDR und Schweden
+                        <br>/ Nils Hansson, Düsseldorf
+                        <br>
+                        <br>Denk-denk-denk-: Stottern, lachen, verkennen und verbessern als Übersetzungstaktiken. Ludwik
+                        Fleck (1896-1961) als Übersetzer und Übersetzter
+                        <br>/ Martina Schlünder, Berlin
+                        <br>
+                        <br>Koordinieren und integrieren: Die Ständige Kommission für Gesundheitswesen des Comecon,
+                        1975-1989
+                        <br>/ Alexa Geisthövel, Berlin
+                        <br>
+                        <br>Kommentar: Heiner Fangerau, Düsseldorf
+                    </td>
+                    <td class="location">Narodní</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion2.ics">iCal</a></td>
+                </tr>
+
+                <tr>
+                    <td class="time" id="time_sektion3">09:00 - 11:00 Uhr</td>
+                    <td class="event" id="sektion3">
+                        <strong>SEKTION 3</strong><br>
+                        <strong><a href="sektion3/s1.html">Power in Translation (individual lectures)</a></strong>
+                        <br>/ Chair: TBA <!--TODO Moderator hinzufügen-->
+                        <br>
+                        <br>From ecology to industrial ecology: translating the ecosystem metaphor
+                        <br>/ Marcin Krasnodębski, Warsaw
+                        <br>
+                        <br>Making human ecology a legal fact: the “ecological theory” of California Indian land use
+                        <br>/ Eric Hounshell, Wien
+                        <br>
+                        <br>'African' Management: Translation and Epistemic Freedom in Postcolonial Business
+                        Administration
+                        <br>/ Katharina Kreuder-Sonnen, Köln
+                        <br>
+                        <br>Knowledge Society, Translated from Capitalist into Self-Managerial Socialist
+                        <br>/ Vedran Duančić, Klagenfurt
+                    </td>
+                    <td class="location">FAMU</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion3.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion4">09:00 - 11:00 Uhr</td>
+                    <td class="event" id="sektion4">
+                        <strong>SEKTION 4</strong><br>
+                        <strong><a href="sektion4/s1.html">Wissenschaftspopularisierung (Einzelvorträge)</a></strong>
+                        <br>/ Chair: TBA <!--TODO Moderator hinzufügen-->
+                        <br>
+                        <br>Wissen in Translation. Zur Popularisierung der Astronomie rund um Wilhelm Julius Foerster ab
+                        1860
+                        <br>/ Caroline Rothauge, Bochum
+                        <br>
+                        <br>Übersichtswerke der Physik- und Astronomiegeschichte zwischen 1950 und 1999.
+                        Transformationen in den Darstellungen von Physikerinnen und Astronominnen?
+                        <br>/ Colleen Seidel, Wuppertal
+                        <br>
+                        <br>Die Wissenschaftskultur(en) des geteilten Berlin. Verschwundene, erhoffte und
+                        wiedergewonnene Orte für Naturkunde, Astronomie und Technik
+                        <br>/ Arne Schirrmacher, Berlin
+                        <br>
+                        <br>‚Sexualität konkret‘ (1979–1986). Zur Popularisierung sexuologischen Wissens zwischen
+                        sexueller Revolution und AIDS-Krise
+                        <br>/ Florenz Gilly, Wien
+                    </td>
+                    <td class="location">Goethe Institut</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion4.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_coffebreak">11:00 - 11:30 Uhr</td>
+                    <td class="event" id="coffebreak">Kaffeepause</td>
+                    <td class="location">Narodní</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="time">11:30 - 13:00 Uhr</td>
+                    <td class="event"><strong><a href="../sektionen/sektion0/plenaryroundtable.html">Plenary
+                                Roundtable</a></strong>
+                        <br>/ Organisation und Moderation: Michal Frank, Prag
+                    </td>
+                    <td class="location">Narodní</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/plenaryroundtable.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time">13:00 - 15:15 Uhr</td>
+                    <td class="event">Flexible Mittagspause (oder Catering auf Voranmeldung)</td>
+                    <td class="location"><!--TODO: Location hinzufügen-->TBA</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion5">15:15 - 17:15 Uhr</td>
+                    <td class="event" id="sektion5">
+                        <strong>SEKTION 5</strong><br>
+                        <strong><a href="sektion5/s1.html">Employing and reflecting AI/Large Language Models in teaching
+                                the history of science, technology and medicine (Roundtable)</a></strong>
+                        <br>/ Organisation: Beate Ceranski, Stuttgart
+                        <br>
+                        <br>/ TBA <!--TODO: Personen eintragen-->
+                        <br>/ TBA
+                        <br>/ TBA
+                        <br>/ TBA
+                    </td>
+                    <td class="location"><!--TODO: Überprüfen-->Narodni</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion5.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion6">15:15 - 17:15 Uhr</td>
+                    <td class="event" id="sektion6">
+                        <strong>SEKTION 6</strong><br>
+                        <strong><a href="sektion6/s1.html">From Theory to Terrain: Translating ‘Western’ Science in
+                                Mandate Palestine and Israel</a></strong>
+                        <br>/ Organisation: Alexej Lochmatow, Jerusalem <!--TODO: Personen eintragen-->
+                        <br>
+                        <br>Too Backwards for the Future? Knowledge Production about Palestine’s Fellahin in
+                        Modernist Writing
+                        <br>/ Basma Fahoum, Negev
+                        <br>
+                        <br>“Cull all non-producers”: Knowledge Transfer in British and Zionist Poultry Farming
+                        under the British Mandate for Palestine (1920s-1940s)
+                        <br>/ Mona Bieling, Hamburg
+                        <br>
+                        <br>Growing Intelligence: Ahmad S. Al-Khalidi and applying ‘Western’ psychological
+                        theories in Mandatory Palestine
+                        <br>/ Alexej Lochmatow, Jerusalem
+                        <br>
+                        <br>What the Nation Wants: Bringing Opinion Polling to 1950s Palestine/Israel
+                        <br>/ Tar Arbel, Philadelphia
+                    </td>
+                    <td class="location"><!--TODO: Überprüfen-->Narodni</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion6.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion7">15:15 - 17:15 Uhr</td>
+                    <td class="event" id="sektion7">
+                        <strong>SEKTION 7</strong><br>
+                        <strong><a href="sektion7/s1.html">Natur Übersetzen (Einzelvorträge)</a></strong>
+                        <br>/ Chair: TBA
+                        <br>
+                        <br>Translation oder Ignoranz? Epistemische Friktion im Umfeld der Moortrockenlegungen des 18.
+                        Jahrhunderts
+                        <br>/ David Gottfried, Augsburg
+                        <br>
+                        <br>Bienen in Translation. Entomologische Praktiken des Übersetzens, 1880–1914
+                        <br>/ Jan Brinkmann, Augsburg
+                        <br>
+                        <br>Mediale Translationen. Vergleichende Verhaltensforschung und ihre Medien um 1950
+                        <br>/ Sophia Gräfe, Berlin
+                        <br>
+                        <br>Von der Antike in die Ewigkeit: Endlagerforschung und Applied history, 1960-2000
+                        <br>/ Leander Diener, Bielefeld
+                    </td>
+                    <td class="location">FAMU</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion7.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion8">15:15 - 17:15 Uhr</td>
+                    <td class="event" id="sektion8">
+                        <strong>SEKTION 8</strong><br>
+                        <strong><a href="sektion8/s1.html">Psychowissenschaften (Einzelvorträge)</a></strong>
+                        <br>/ Chair: TBA <!--TODO: Chair hinzufügen-->
+                        <br>
+                        <br>Von kindlicher Aggression zu kindlicher Angst. Über die Anfänge der psychosomatischen
+                        Forschung an Kindern in den 1970er Jahren
+                        <br>/ Anne Oommen-Halbach, Düsseldorf
+                        <br>
+                        <br>Zwischen neuem Wissen und alter Logik. Zum polizeilichen Umgang mit psychischer Alterität
+                        nach der Psychiatriereform, 1975-2000
+                        <br>/ Oliver Falk, Münster
+                        <br>
+                        <br>Hormone, Psyche, Psychoendokrinologie. Zur Translation endokrinologischen Wissens in der
+                        Psychiatrie des 20. Jahrhunderts.
+                        <br>/ Xenia Steinbach, Hannover
+                        <br>/ Sophia Wagemann, Berlin
+                        <br>
+                        <br>Wissen über die Geburt der „Anderen“. Übersetzungen im Kontext der britischen und deutschen
+                        Geburtsvorbereitung im 20. Jahrhundert
+                        <br>/ Bettina Wagener, Siegen
+                    </td>
+                    <td class="location">Goethe-Institut</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion8.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_earlycareer">17:15 - 18:00 Uhr</td>
+                    <td class="event" id="earlycareer">Early Career Treffen </td>
+                    <td class="location">Narodni</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/earlycareer.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_transfer">Im Anschluss</td>
+                    <td class="event" id="transfer">Eigenständiger Transfer in die Písecká brána </td>
+                    <td class="location"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_gala">19:00 Uhr</td>
+                    <td class="event" id="gala"><strong>Festabend mit Preisverleihungen und musikalischer
+                            Begleitung</strong>
+                        <br>
+                        <br>/ Begrüßung durch Noyan Dinçkal (Vorsitzender)
+                        <br>/ Bericht des Driburger Kreises
+                        <br>/ Verleihung des NTM-Artikelpreises
+                        <br>/ Verleihung des Förderpreises der GWMT
+                    </td>
+                    <td class="location">Písecká brána</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/gala.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_disco">Im Anschluss</td>
+                    <td class="event" id="disco">Entspanntes Konferenz-Dinner und GWMT-Disco <br>für einen langen gemeinsamen Abend</td>
+                    <td class="location">Písecká brána</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/disco.ics">iCal</a></td>
+                </tr>
+
+
+
+
+
+
+            </tbody>
+        </table>
+    </main>
+
+    <script src="../js/donnerstag.js"></script>
+
+    <noscript>
+        <p>Diese Seite ist auch auf Englisch verfügbar. Bitte aktivieren Sie JavaScript, um die Sprache zu wechseln.</p>
+    </noscript>
+
+</body>
+
+</html>
