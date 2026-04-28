@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Freitag</title>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <button><a href="../index.html">&#8592;</a></button>
+        <button onclick="setLanguage('de')" aria-label="Seite auf Deutsch anzeigen">DE</button>
+        <button onclick="setLanguage('en')" aria-label="Switch to English">EN</button>
+    </nav>
+    <main>
+        <h2 id="headline">Programm - Freitag, 11. September 2026</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="time" id="th_time" scope="col">Zeit</th>
+                    <th class="event" id="th_event" scope="col">Veranstaltung</th>
+                    <th class="location" id="th_location" scope="col">Ort</th>
+                    <th class="iCal">&#128197;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time" id="time_sektion9">09:00 - 10:30 Uhr</td>
+                    <td class="event" id="sektion9">
+                        <strong>SEKTION 9</strong><br>
+                        <strong><a href="sektion9/s1.html">Translation and/of Technology (Einzelvorträge)</a></strong>
+                        <br>/ Chair: TBA <!-- TODO: Chair hinzufügen-->
+                        <br>
+                        <br>Translating the Java Bogie: Railway Technology Transfer between Switzerland, South and
+                        Southeast Asia in the 1920s
+                        <br>/ Philipp Krauer, Zürich
+                        <br>
+                        <br>Environmental knowledge in transit: Automobility as a translational practice in the making
+                        of modern ecology
+                        <br>/ Jonathan Stafford, Konstanz
+                        <br>
+                        <br>Imaging the Human Body: Medical Images between Computer Vision and Medical Perception.
+                        <br>/ Hannes Junker, Bonn
+                    </td>
+                    <td class="location">Narodní <!--TODO: Nachfragen ob das wirklich der richtige Raum ist --></td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion9.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion10">09:00 - 10:30 Uhr</td>
+                    <td class="event" id="sektion10">
+                        <strong>SEKTION 10</strong><br>
+                        <strong><a href="sektion10/s1.html">Key debates of 20th century (Einzelvorträge)</a></strong>
+                        <br>/ Chair: TBA <!--TODO: Chair hinzufügen-->
+                        <br>
+                        <br>The Vienna Circle, a programme of scientific philosophy: its reception in two phases after
+                        its exile.
+                        <br>/ Antonia Soulez, Paris
+                        <br>
+                        <br>Translating the Unconscious into Socialist Science: The Case of Filipp Bassin (1904–1992)
+                        <br>/ Roman Mamin, Paris
+                        <br>
+                        <br>From Ilya Ehrenburg to C. P. Snow: Translating the “Two Cultures” Debate in Socialist
+                        Czechoslovakia.
+                        <br>/ Michaela Šmidrkalová, Prague
+                    </td>
+                    <td class="location">Narodní <!--TODO: Nachfragen ob das wirklich der richtige Raum ist --></td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion10.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion11">09:00 - 10:30 Uhr</td>
+                    <td class="event" id="sektion11">
+                        <strong>SEKTION 11</strong><br>
+                        <strong><a href="sektion11/s1.html">Materials and meanings: Understanding pre-modern drug
+                                production as translation </a></strong>
+                        <br>/ Organisation: Katarzyna Pękacka-Falkowska/Bettina Wahrig, Wrocław/Braunschweig
+                        <br>
+                        <br>From Philology to Praxis: The Epistemic Translation of Pharmaceutical Recipes in the
+                        Polish-Lithuanian Commonwealth.
+                        <br>/ Danuta Raj, Jakub Węglorz, Katarzyna Pękacka-Falkowska, Wrocław
+                        <br>
+                        <br>Reconstruction, Reenactment and Reworking: Early Modern Plague Remedies between Material
+                        Practice and Microbiological Testing
+                        <br>/ Alvin Heidenfelder, Braunschweig
+                        <br>
+                        <br>Translating "Arzneimittelgeschichte" into the "Arzneimittelhistorische Sammlung: 
+                        Re-construction and Lexicology of the 1960s.
+                        <br>/ Bettina Wahrig, Braunschweig
+                    </td>
+                    <td class="location">FAMU</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion11.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion12">09:00 - 10:30 Uhr</td>
+                    <td class="event" id="sektion12">
+                        <strong>SEKTION 12</strong><br>
+                        <strong><a href="sektion12/s1.html">Psychosciences (Einzelvorträge)</a></strong>
+                        <br>/ Chair: TBA <!--TODO: Chair hinzufügen-->
+                        <br>
+                        <br>The Translational Imperative: Reshaping Mental Health Research in the 1990s Decade of the
+                        Brain.
+                        <br>/ Wessel de Cock, Berlin
+                        <br>
+                        <br>Signal Transmission and Knowledge Translation: Cybernetic Reseach between Animal, Human and
+                        Machine in 1970s West-Germany
+                        <br>/ Dinah Pfau, München
+                        <br>
+                        <br>Measuring Minds under Socialism: IQ Testing and the Reconfiguration of Class in 1970s
+                        Hungary.
+                        <br>/ Annina Gagyiova, Prague
+                    </td>
+                    <td class="location">Goethe Institut</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion12.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_coffebreak">10:30 - 11:00 Uhr</td>
+                    <td class="event" id="coffebreak">Kaffeepause</td>
+                    <td class="location">Narodní</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion13">11:00 - 13:00 Uhr</td>
+                    <td class="event" id="sektion13">
+                        <strong>SEKTION 13</strong><br>
+                        <strong><a href="sektion13/s1.html">Paleontological Passages: The Popularization of Prehistory
+                                in Central and Eastern Europe</a></strong>
+                        <br>/ Organisation: Philipp Kohl, München
+                        <br>
+                        <br>“Silurian Sea of Bohemia”: The Impact of Joachim Barrande’s Research on the National Imagery
+                        <br>/ Josef Řídký, Prague
+                        <br>
+                        <br>Depicting and Popularizing Earth History. Die Urwelt in ihren verschiedenen Bildungsperioden
+                        (1851) by Naturalist Franz Unger and Artist Joseph Kuwasseg
+                        <br>/ Patrick Stoffel, Lüneburg
+                        <br>
+                        <br>“A Series of Localized Images”: The Visual Reconstruction of Bohemian Prehistory and the
+                        National Geology of Antonín Frič
+                        <br>/ Philipp Kohl, München
+                        <br>
+                        <br>Zdeněk Burian’s Paleoart and 20th-Century Czechoslovakia
+                        <br>/ Rostislav Walica, Prague
+                    </td>
+                    <td class="location">Goethe Institut</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion13.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion14">11:00 - 13:00 Uhr</td>
+                    <td class="event" id="sektion14">
+                        <strong>SEKTION 14</strong><br>
+                        <strong><a href="sektion14/s1.html">Train the messenger – Information brokering and the wake of
+                                knowledge society</a></strong>
+                        <br>/ Organisation: Friedrich Cain, Wien
+                        <br>
+                        <br>Lost in Translation? Vietnamese Art Students’ Education and Careers Between Prague and
+                        Vietnam, 1969-1989
+                        <br>/ Anna-Marie Kroupova, Wien
+                        <br>
+                        <br>Infrastructures and politics of information: towards a comparative history of information
+                        science in FRG and GDR, c. 1960–1990
+                        <br>/ Mathias Grote, Greifswald
+                        <br>/ Max Stadler, Berlin
+                        <br>
+                        <br>Dis-assetizing Feminist Knowledge: Translation, State Enclosure, and the Aftermath of the
+                        Birth Control Movement in Late-Twentieth-Century Greece
+                        <br>/ Evangelia Chordaki, Athens
+                        <br>
+                        <br>Creative Cadres. Applying Science Studies in 1980s GDR Architecture
+                        <br>/ Friedrich Cain, Wien
+                    </td>
+                    <td class="location">FAMU</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion14.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion15">11:00 - 13:00 Uhr</td>
+                    <td class="event" id="sektion15">
+                        <strong>SEKTION 15</strong><br>
+                        <strong><a href="sektion15/s1.html">Übersetzung in Früher Neuzeit (Einzelvorträge)</a></strong>
+                        <br>/ Chair: TBA
+                        <br>
+                        <br>Vernacular Text Work: Translation technischen Wissens in Wort und Bild im frühen Buchdruck
+                        <br>/ Tillmann Taape, Berlin
+                        <br>
+                        <br>Praxis- und Erfahrungswissen in den Aufzeichnungen und Anleitungen frühneuzeitlicher
+                        Handwerkschirurgen
+                        <br>/ Michael Stolberg, Würzburg
+                        <br>
+                        <br>Lost in Translation: Epistemische Passagen der Informationsgewinnung in barocker Topographie
+                        <br>/ Karl Johann Scharpf, Berlin
+                        <br>
+                        <br>Optisches Wissen und Übersetzung im 18. Jahrhundert: Beispiele aus dem Werk Barthold
+                        Heinrich Brockes’
+                        <br>/ Maja Rausch, Marburg
+                    </td>
+                    <td class="location">FAMU</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion15.ics">iCal</a></td>
+                </tr>
+                <tr>
+                    <td class="time" id="time_sektion16">11:00 - 13:00 Uhr</td>
+                    <td class="event" id="sektion16">
+                        <strong>SEKTION 16</strong><br>
+                        <strong><a href="sektion16/s1.html">ICH ICH ICH. Autorschaft und Identität in epistemischen und
+                                politischen Umbruchzeiten</a></strong>
+                        <br>/ Organisation: Christina Wessely, Lüneburg
+                        <br>
+                        <br>/ Christina Wessely, Lüneburg
+                        <br>Einführung: ICH ICH ICH. Autorschaft und Identität in epistemischen und politischen
+                        Umbruchzeiten
+                        <br>
+                        <br>/ Monika Wulz, Lüneburg
+                        <br>Irritationen des Ichs. Identität und Wissen in der Zeitschrift Common Ground 1940–1949
+                        <br>
+                        <br>/ Onur Erdur, Berlin
+                        <br>Zur Evidenz der Erfahrung, ca. 1990
+                        <br>
+                        <br>Der Schriftsteller als Avatar zu Besuch im Uncanny Valley
+                        <br>/ Michael Hagner, Zürich
+                        <br>
+                        <br>Kommentar
+                        <br>/ Cornelius Borck, Lübeck
+                    </td>
+                    <td class="location">Goethe-Institut</td>
+                    <td class="iCal"><a href="../iCal/donnerstag/sektion16.ics">iCal</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </main>
+
+    <script src="../js/mittwoch.js"></script>
+
+    <noscript>
+        <p>Diese Seite ist auch auf Englisch verfügbar. Bitte aktivieren Sie JavaScript, um die Sprache zu wechseln.</p>
+    </noscript>
+
+</body>
+
+</html>
