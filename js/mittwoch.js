@@ -10,14 +10,14 @@ const translations = {
     th_event: "Event",
     th_location: "Location",
 
-    time1: '15:00 - 19:00 <a href="../iCal/mittwoch/registrierung.ics">(iCal)</a>',
+    time1: "3:00 p.m. - 7:00 p.m.",
     event1: "Registration at the National Museum of Agriculture (conference office).<br>Opportunity to visit the museum, café, and observation platform.",
     location1: "National Museum of Agriculture",
 
-    time2: '15:00 - 18:30 <a href="../iCal/mittwoch/mitgliederversammlung.ics">(iCal)</a>',
+    time2: "3:00 p.m. - 6:30 p.m.",
     event2: "General assembly of GWMT",
 
-    time3: 'From 19:00 <a href="../iCal/mittwoch/eroeffnungsvortrag.ics">(iCal)</a>',
+    time3: "From 7:00 p.m.",
     event3: `<strong>Opening ceremony of the 8th annual GWMT conference</strong><br><br>
     / Welcome by <i>TBA</i><br>
     / GWMT chair, Noyan Dinçal<br>
@@ -26,10 +26,10 @@ const translations = {
     TBA<br>
     / Moderation: TBA`,
 
-    time4: "Afterwards (until 22:00)",
+    time4: "Afterwards (until 10:00 p.m.)",
     event4: "Reception with drinks and snacks",
 
-    time5: "From 22:00",
+    time5: "From 10:00 p.m.",
     event5: "Informal end of the day at Letenský zámeček with a view over Prague",
     location2: "250 m straight ahead from the museum entrance"
   }
