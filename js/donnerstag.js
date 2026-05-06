@@ -76,7 +76,7 @@ const translations = {
                         <br>/ Vedran Duančić, Klagenfurt`,
 
         sektion4: `<strong>SECTION 4 (German)</strong><br>
-                        <strong>Wissenschaftspopularisierung (Einzelvorträge)</strong>
+                        <strong>Wissenschaftspopularisierung (Individual lectures)</strong>
                         <br>/ Chair: TBA <!--TODO Moderator hinzufügen-->
                         <br>
                         <br><a href="../sektionen/sektion4/s4_1.html">Wissen in Translation. Zur Popularisierung der Astronomie rund um Wilhelm Julius Foerster ab
@@ -131,7 +131,7 @@ const translations = {
                         <br>/ Tar Arbel, Philadelphia`,
 
         sektion7: `<strong>SECTION 7 (German)</strong><br>
-                        <strong>Natur Übersetzen (Einzelvorträge)</strong>
+                        <strong>Natur Übersetzen (Individual lectures)</strong>
                         <br>/ Chair: TBA
                         <br>
                         <br><a href="../sektionen/sektion7/s7_1.html">Translation oder Ignoranz? Epistemische Friktion im Umfeld der Moortrockenlegungen des 18.
@@ -148,7 +148,7 @@ const translations = {
                         <br>/ Leander Diener, Bielefeld`,
 
         sektion8: `<strong>SECTION 8 (German)</strong><br>
-                        <strong>Psychowissenschaften (Einzelvorträge)</strong>
+                        <strong>Psychowissenschaften (Individual lectures)</strong>
                         <br>/ Chair: TBA <!--TODO: Chair hinzufügen-->
                         <br>
                         <br><a href="../sektionen/sektion8/s8_1.html">Von kindlicher Aggression zu kindlicher Angst. Über die Anfänge der psychosomatischen
