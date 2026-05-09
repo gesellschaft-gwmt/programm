@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termine im Umfeld der Tagung</title>
+    <title id="pagetitle">Termine im Umfeld der Tagung</title>
     <link href="../css/style.css" rel="stylesheet">
 </head>
 
@@ -15,23 +15,22 @@
         <button onclick="setLanguage('en')" aria-label="Switch to English">EN</button>
     </nav>
     <main>
-        <h2>Termine im Umfeld der Jahrestagung</h2>
+        <h2 id="headline">Termine im Umfeld der Jahrestagung</h2>
         </p>
 
         <table>
             <thead>
                 <tr>
-                    <th class="day">Tag</th>
-                    <th class="time">Zeit</th>
-                    <th class="event">Veranstaltung</th>
-                    <th class="location">Ort</th>
+                    <th class="day" id="th_day">Tag</th>
+                    <th class="time" id="th_time">Zeit</th>
+                    <th class="event" id="th_event">Veranstaltung</th>
+                    <th class="location" id="th_location">Ort</th>
                     <th class="iCal">&#128197;</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- TODO: Dieses Jahr kein FoGeL?-->
                 <tr>
-                    <td class="day">08.09.2026</td>
+                    <td class="day" id="dk_day_1">08.09.2026</td>
                     <td class="time" rowspan="2"></td>
                     <td class="event" rowspan="2">Driburger Kreis: Unsichtbar - Was man in der Wissenschaft nicht sehen
                         kann</td>
@@ -39,12 +38,12 @@
                     <td><a href=""></a></td>
                 </tr>
                 <tr>
-                    <td class="day">09.09.2026</td>
+                    <td class="day" id="dk_day_2">09.09.2026</td>
                 </tr>
                 <tr>
-                    <td class="day">09.09.2026</td>
-                    <td class="time">15:30 - 19:30 Uhr</td>
-                    <td class="event">GWMT Mitgliederversammlung</td>
+                    <td class="day" id="day_gwmtmv">09.09.2026</td>
+                    <td class="time" id="time_gwmtmv">15:30 - 19:30 Uhr</td>
+                    <td class="event" id="event_gwmtmv">GWMT Mitgliederversammlung</td>
                     <td class="location">NZM</td>
                     <td><a href=""></a></td>
                 </tr>
@@ -57,8 +56,8 @@
                 </tr>
                 <tr>
                     <td class="day">10.09.2026</td>
-                    <td class="time">17:15 - 18:00</td><!-- TODO: Warum ist das Mittagessen um 17 Uhr cT?-->
-                    <td class="event">Early Career Mittagessen</td>
+                    <td class="time">17:15 - 18:00</td>
+                    <td class="event">Early Career Vernetzungstreffen</td>
                     <td class="location">Narodní</td>
                     <td><a href=""></a></td>
                 </tr>
@@ -99,21 +98,29 @@
                 </tr>
             </tbody>
         </table>
-        <h1>Führungen</h1> <!-- TODO: Gibt es überhaupt Führungen? Wenn ja sind diese sicher nicht im historischen Teil der TUD :D -->
-        <table>
-            <thead>
-                <tr>
-                    <th class="day">Tag</th>
-                    <th class="time">Zeit</th>
-                    <th class="event">Veranstaltung</th>
-                    <th class="location">Ort</th>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
+        <h1 id="guidedtours">Führungen</h1>
+        <thead>
+            <tr>
+                <th class="day">Tag</th>
+                <th class="time">Zeit</th>
+                <th class="event">Veranstaltung</th>
+                <th class="location">Ort</th>
+            </tr>
+            <tr>
+                <td>09.09.2026</td>
+                <td>13:30 - 15:00</td>
+                <td>Technisches Museum, Prag</td>
+                <td>Kostelní 1320/42, 170 00 Praha 7-Letná (5 min. vom NZM entfernt)</td>
+            </tr>
+            <tr>
+                <td>11.09.2026</td>
+                <td>14:30 - 15:30</td>
+                <td>Hrdlicka Museum of Man, Faculty of Science, Charles University</td>
+                <td>Vinicna 7, Praha 2, 128 00 (15 min. tram/25 min. zu Fuß vom Tagungsort entfernt)</td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
         </table>
     </main>
 </body>
