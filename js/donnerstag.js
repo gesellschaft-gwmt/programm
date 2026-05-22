@@ -172,7 +172,7 @@ const translations = {
         transfer: "Self organized Transfer in die Písecká brána",
         gala: `<strong>Gala evening with awards ceremony and musical accompaniment</strong>
                         <br>
-                        <br>/ Welcome by Noyan Dinçkal (Vorsitzender)
+                        <br>/ Welcome by Noyan Dinçkal (Chair of GWMT)
                         <br>/ Report of the Driburger Kreis
                         <br>/ Awarding of the NTM-Articleprice
                         <br>/ Awarding of the Promotion Award of GWMT`,
