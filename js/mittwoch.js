@@ -22,8 +22,7 @@ const translations = {
     / Welcome by <i>TBA</i><br>
     / GWMT chair, Noyan Dinçal<br>
     / Local organizers, Jan Surman<br><br>
-    <strong>Lucie Storchová, Prague</strong><br>
-    Translating the Natural Order: The Circulation of Knowledge between the German Lands and Bohemia in Early Modern Times<br>
+    <strong>Lucie Storchová, Prague</strong><br>Translating the Natural Order: The Circulation of Knowledge between the German Lands and Bohemia in Early Modern Times<br>
     / Moderation: TBA`,
 
     time4: "Afterwards (until 10:00 p.m.)",
