@@ -19,7 +19,9 @@ const translations = {
 
     time3: "From 7:00 p.m.",
     event3: `<strong>Opening ceremony of the 8th annual GWMT conference</strong><br><br>
-    / Welcome by <i>TBA</i><br>
+    / Welcome by <br>
+    / Ondřej Beránek, Vice President of the Czech Academy of Sciences
+    / Rudolf Kučera, Director, Masaryk Institute and Archives of the Czech Academy of Sciences
     / GWMT chair, Noyan Dinçal<br>
     / Local organizers, Jan Surman<br><br>
     <strong>Lucie Storchová, Prague</strong><br>Translating the Natural Order: The Circulation of Knowledge between the German Lands and Bohemia in Early Modern Times<br>
