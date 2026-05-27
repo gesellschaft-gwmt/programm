@@ -97,8 +97,8 @@ const translations = {
 
         coffebreak: "Coffebreak",
         lunch: "Lunch",
-        p_roundtable: `Plenary Roundtable</strong>
-                        <br>/ Organization and Moderation: Michal Frank, Prag`,
+        p_roundtable: `<strong><a href="../sektionen/sektion0/plenaryroundtable.html">Plenary Roundtable</a></strong>
+                        <br>/ Organization and Moderation: Michal Frank, Prague`,
 
         sektion5: `<strong>SECTION 5</strong><br>
                         <strong><a href="../sektionen/sektion5/s5.html">Employing and reflecting AI/Large Language Models in teaching
