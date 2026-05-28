@@ -25,6 +25,9 @@ const translations = {
         time_gala: "7:00 am",
         time_disco: "then",
 
+        conference_office_thursday_time: "08:30 a.m. - 05:00 p.m.",
+        conference_office_thursday: "Open Conference Office",
+
         sektion1: `<strong>SECTION 1</strong><br>
                         <strong><a href="../sektionen/sektion1/s1.html">Roundtable: Narrating marginalized pasts. Public histories of
                                 science, technology, and medicine</a></strong>

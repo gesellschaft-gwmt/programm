@@ -20,6 +20,9 @@ const translations = {
         time_sektion15: "11:00 a.m. - 1:00 p.m.",
         time_sektion16: "11:00 a.m. - 1:00 p.m.",
 
+        conference_office_friday_time: "08:30 a.m. - 01:00 p.m.",
+        conference_office_friday: "Open Conference Office",
+
         sektion9: `<strong>SECTION 9 (German)</strong><br>
                         <strong>Translation and/of Technology (Individual lectures)</strong>
                         <br>/ Chair: TBA <!-- TODO: Chair hinzufügen-->
