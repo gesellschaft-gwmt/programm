@@ -29,7 +29,7 @@ const translations = {
         conference_office_thursday: "Open Conference Office",
 
         time_rt_ag_mb: "01:30 p.m. - 03:00 p.m.",
-        event_rt_ab_mb: `<a href="../sektionen/sektion0/agrt.html"><strong>Roundtable AG Mittelbau<strong></a></td>`,
+        event_rt_ag_mb: `<a href="../sektionen/sektion0/agrt.html"><strong>Roundtable AG Mittelbau<strong></a></td>`,
 
         sektion1: `<strong>SECTION 1</strong><br>
                         <strong><a href="../sektionen/sektion1/s1.html">Roundtable: Narrating marginalized pasts. Public histories of
