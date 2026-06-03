@@ -23,7 +23,7 @@ const translations = {
     agf_time:"01:30 p.m. 03:00 p.m.",
     day_pecee:"10/09/2026",
     time_pecee:"05:15 p.m. - 06:00 p.m.",
-    guidedtours: "guidedtours",
+    guidedtours: "Guided Tours",
     day_gt:"Day",
     time_gt:"Time",
     event_gt:"Event",
