@@ -5,6 +5,9 @@ const translations = {
     pageTitle: "GWMT Program 2026",
     headline: "Annual Conference Program 2026",
 
+    headline_now: "Conference Program 2026",
+    headline_last_years: "Past Conference Programs",
+
     wednesday: "Wednesday, September 09, 2026",
     thursday: "Thursday, September 10, 2026",
     friday: "Friday, September 11, 2026",
