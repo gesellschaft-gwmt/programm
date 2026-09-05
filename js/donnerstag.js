@@ -66,7 +66,7 @@ const translations = {
 
         sektion3: `<strong>SECTION 3</strong><br>
                         <strong>Power in Translation (individual lectures)</strong>
-                        <br>/ Chair: TBA <!--TODO Moderator hinzufügen-->
+                        <br>/ Chair: Christian Zumbrägel
                         <br>
                         <br><a href="../sektionen/sektion3/s3_1.html">From ecology to industrial ecology: translating the ecosystem metaphor</a>
                         <br>/ Marcin Krasnodębski, Warsaw
@@ -83,7 +83,7 @@ const translations = {
 
         sektion4: `<strong>SECTION 4 (German)</strong><br>
                         <strong>Wissenschaftspopularisierung (Individual lectures)</strong>
-                        <br>/ Chair: TBA <!--TODO Moderator hinzufügen-->
+                        <br>/ Chair: Tomáš W. Pavlíček
                         <br>
                         <br><a href="../sektionen/sektion4/s4_1.html">Wissen in Translation. Zur Popularisierung der Astronomie rund um Wilhelm Julius Foerster ab
                         1860</a>
@@ -148,7 +148,7 @@ const translations = {
 
         sektion8: `<strong>SECTION 8 (German)</strong><br>
                         <strong>Psychowissenschaften (Individual lectures)</strong>
-                        <br>/ Chair: TBA <!--TODO: Chair hinzufügen-->
+                        <br>/ Chair: Nadine Metzger
                         <br>
                         <br><a href="../sektionen/sektion8/s8_1.html">Von kindlicher Aggression zu kindlicher Angst. Über die Anfänge der psychosomatischen
                         Forschung an Kindern in den 1970er Jahren</a>
