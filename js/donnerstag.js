@@ -109,12 +109,7 @@ const translations = {
         sektion5: `<strong>SECTION 5</strong><br>
                         <strong><a href="../sektionen/sektion5/s5.html">Employing and reflecting AI/Large Language Models in teaching
                                 the history of science, technology and medicine (Roundtable)</a></strong>
-                        <br>/ Organization: Beate Ceranski, Stuttgart
-                        <br>
-                        <br>/ TBA <!--TODO: Personen eintragen-->
-                        <br>/ TBA
-                        <br>/ TBA
-                        <br>/ TBA`,
+                        <br>/ Organization: Beate Ceranski, Stuttgart & Stefan Esselborn, München `,
 
         sektion6: `<strong>SECTION 6</strong><br>
                         <strong><a href="../sektionen/sektion6/s6.html">From Theory to Terrain: Translating ‘Western’ Science in
