@@ -21,12 +21,12 @@ const translations = {
     event3: `<strong>Opening ceremony of the 8th annual GWMT conference</strong><br><br>
     / Welcome by <br>
     / Ondřej Beránek, Vice President of the Czech Academy of Sciences
-    / Rudolf Kučera, Director, Masaryk Institute and Archives of the Czech Academy of Sciences<br>
-    / Tomáš Nigrin, Director of the Institute of International Studies, at the Faculty of Social Sciences, Charles University in Prague<br>
-    / Michal Frankl, Leibniz Institute for the History and Culture of Eastern Europe<br>
-    / GWMT chair, Noyan Dinçal<br>
-    / Local organizers, Jan Surman<br><br>
-    <strong>Lucie Storchová, Prague</strong><br>Translating the Natural Order: The Circulation of Knowledge between the German Lands and Bohemia in Early Modern Times<br>
+    / Rudolf Kučera, Director, Masaryk Institute and Archives of the Czech Academy of Sciences <br>
+    / Tomáš Nigrin, Director of the Institute of International Studies, at the Faculty of Social Sciences, Charles University in Prague <br>
+    / Michal Frankl, Leibniz Institute for the History and Culture of Eastern Europe <br>
+    / GWMT chair, Noyan Dinçal <br>
+    / Local organizers, Jan Surman <br> <br>
+    <strong>Lucie Storchová, Prague</strong> <br>Translating the Natural Order: The Circulation of Knowledge between the German Lands and Bohemia in Early Modern Times<br>
     / Moderation: TBA`,
 
     time4: "Afterwards (until 10:00 p.m.)",
