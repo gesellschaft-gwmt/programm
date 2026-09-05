@@ -149,9 +149,7 @@ const translations = {
                         <br>
                         <br><a href="../sektionen/sektion7/s7_3.html">Mediale Translationen. Vergleichende Verhaltensforschung und ihre Medien um 1950</a>
                         <br>/ Sophia Gräfe, Berlin
-                        <br>
-                        <br><a href="../sektionen/sektion7/s7_4.html">Von der Antike in die Ewigkeit: Endlagerforschung und Applied history, 1960-2000</a>
-                        <br>/ Leander Diener, Bielefeld`,
+                        `,
 
         sektion8: `<strong>SECTION 8 (German)</strong><br>
                         <strong>Psychowissenschaften (Individual lectures)</strong>
