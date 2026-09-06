@@ -20,7 +20,7 @@ const translations = {
         time_sektion6: "3:15 p.m. - 5:15 p.m.",
         time_sektion7: "3:15 p.m. - 5:15 p.m.",
         time_sektion8: "3:15 p.m. - 5:15 p.m.",
-        time_earlycareer: "5:15 p.m. - 6:00 p.m",
+        time_earlycareer: "17:15 p.m. - 18:00 p.m.",
         time_transfer: "then",
         time_gala: "7:00 am",
         time_disco: "then",
