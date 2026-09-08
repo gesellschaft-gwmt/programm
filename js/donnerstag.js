@@ -36,11 +36,12 @@ const translations = {
                                 science, technology, and medicine</a></strong>
                         <br>/ Organization: Sarah Ehlers, Munich
                         <br>
-                        <br>/ Manuela Bauche, Berlin
+                        <br><s>/ Manuela Bauche, Berlin</s>
                         <br>/ Leonie Braam, Berlin
-                        <br>/ Henrik Eßler, Hamburg
+                        <br><s>/ Henrik Eßler, Hamburg</s>
                         <br>/ Sophie Gerber, Vienna
-                        <br>/ Monique Ligtenberg, Zurich`,
+                        <br>/ Monique Ligtenberg, Zurich
+                        <br>/ Phillip Osten, Hamburg`,
 
         sektion2: `<strong>SECTION 2 (German)</strong><br>
                         <strong><a href="../sektionen/sektion2/s2.html">Überbrücken, übertragen, unterschlagen: Medizinische
