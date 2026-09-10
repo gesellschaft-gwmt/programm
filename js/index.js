@@ -17,6 +17,7 @@ const translations = {
 
     info: "Hinweis: Diese Seite ist in deutscher und englischer Sprache verfügbar. Klicken sie für die deutsche Seite den Knopf (DE) oben auf der Seite.",
     update: "Last program update:",
+    updates"Information on Last-Minute Changes",
 
     change1: "Room Change: Roundtable AG Mittelbau, New: Room 205",
     change2: "Room Change: AG Frauen* und Geschlechterforschung, New: Room 6"
