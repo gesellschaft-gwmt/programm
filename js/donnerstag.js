@@ -134,7 +134,7 @@ const translations = {
 
         sektion7: `<strong>SECTION 7 (German)</strong><br>
                         <strong>Natur Übersetzen (Individual lectures)</strong>
-                        <br>/ Chair: TBA
+                        <br>/ Chair: Christopher Neumaier
                         <br>
                         <br><a href="../sektionen/sektion7/s7_1.html">Translation oder Ignoranz? Epistemische Friktion im Umfeld der Moortrockenlegungen des 18.
                         Jahrhunderts</a>

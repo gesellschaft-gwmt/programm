@@ -25,7 +25,7 @@ const translations = {
 
         sektion9: `<strong>SECTION 9 (German)</strong><br>
                         <strong>Translation and/of Technology (Individual lectures)</strong>
-                        <br>/ Chair: TBA <!-- TODO: Chair hinzufügen-->
+                        <br>/ Chair: Nadine Metzger
                         <br>
                         <br><a href="../sektionen/sektion9/s9_1.html">Translating the Java Bogie: Railway Technology Transfer between Switzerland, South and
                         Southeast Asia in the 1920s</a>
@@ -39,7 +39,7 @@ const translations = {
                         <br>/ Hannes Junker, Bonn`,
         sektion10: `<strong>SECTION 10</strong><br>
                         <strong>Key debates of 20th century (Individual lectures)</strong>
-                        <br>/ Chair: TBA <!--TODO: Chair hinzufügen-->
+                        <br>/ Chair: Christina Brandt
                         <br>
                         <br><a href="../sektionen/sektion10/s10_1.html">The Vienna Circle, a programme of scientific philosophy: its reception in two phases after
                         its exile.</a>
@@ -69,7 +69,7 @@ const translations = {
                         <br>/ Bettina Wahrig, Braunschweig`,
         sektion12: `<strong>SECTION 12</strong><br>
                         <strong>Psychosciences (Individual lectures)</a></strong>
-                        <br>/ Chair: TBA <!--TODO: Chair hinzufügen-->
+                        <br>/ Chair: Philipp Osten
                         <br>
                         <br><a href="../sektionen/sektion12/s12_1.html">The Translational Imperative: Reshaping Mental Health Research in the 1990s Decade of the
                         Brain.</a>
@@ -122,7 +122,7 @@ const translations = {
                         <br>/ Friedrich Cain, Vienna`,
         sektion15: `<strong>SECTION 15 (German)</strong><br>
                         <strong>Übersetzung in Früher Neuzeit (Individual lectures)</strong>
-                        <br>/ Chair: TBA
+                        <br>/ Chair: Noyan Dinçkal
                         <br>
                         <br><a href="../sektionen/sektion15/s15_1.html">Vernacular Text Work: Translation technischen Wissens in Wort und Bild im frühen Buchdruck</a>
                         <br>/ Tillmann Taape, Berlin
