@@ -15,7 +15,11 @@ const translations = {
     year2025: "Annual Conference Program 2025",
     year2026: "Annual Conference Program 2024",
 
-    info: "Hinweis: Diese Seite ist in deutscher und englischer Sprache verfügbar. Klicken sie für die deutsche Seite den Knopf (DE) oben auf der Seite."
+    info: "Hinweis: Diese Seite ist in deutscher und englischer Sprache verfügbar. Klicken sie für die deutsche Seite den Knopf (DE) oben auf der Seite.",
+    update: "Last program update:",
+
+    change1: "Room Change: Roundtable AG Mittelbau, New: Room 205",
+    change2: "Room Change: AG Frauen* und Geschlechterforschung, New: Room 6"
   }
 };
 
